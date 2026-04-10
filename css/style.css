@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*body*/
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-color: #757780;
+    margin: 0;
+    line-height: 1.5rem;
+    color: #001011;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*classes*/
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fffffc;
+}
+
+.actuel{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    border-bottom: #98ce00 solid 3px;
+    border-radius: 0px;
+}
+
+.Btn-nosproduits {
+    background-color: #757780;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #fffffc;
+    padding: 5px;
+}
+
+.carte {
+    background-color: #6ccff6;
+    margin: 20px auto;
+    padding: 30px;
+    width: 33%;
+    text-align: center;
+}
+
+.carte h2{
+    color: #fffffc;
+    text-align: center;
+}
+
+.carte img {
+    margin-top: 20px;
+    width: 75%;
+}
+
+.carte a {
+    display: inline-block;
+    background-color: #001011;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #fffffc;
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+
+.carte a:hover {
+    background-color: #ffffff;
+    color: #001011;
+    padding: 7px;
+}
+
+.les-nouvelles {
+    display: flex;
+    justify-content: space-between;
+    background-color: #001011;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.figure-nouvelle{
+    margin: 0;
+    margin-right: 15px;
+    width: 25%;
+}
+
+.figure-nouvelle a{
+    background-color: transparent;
+    border-radius: 0px;
+    text-decoration: none;
+    color: #fffffc;
+    padding: 0px 0px;
+    margin-top: 0px;
+}
+
+.figure-nouvelle a:hover{
+    background-color: transparent;
+    padding: 0px;
+    color: #6ccff6;
+}
+
+.margin{ margin-left: 0;}
+
+.figure a{
+    background-color: transparent;
+    border-radius: 0px;
+    text-decoration: none;
+    color: #fffffc;
+    padding: 0px 0px;
+    margin-top: 0px;
+}
+
+.figure a:hover{
+    background-color: transparent;
+    padding: 0px;
+    color: #6ccff6;
+}
+
+.figure span a:hover{
+    background-color: transparent;
+    padding: 0px;
+    color: #001011;
+}
+
+.bouton-suite {
+    display: inline-block;
+    width: 20%;
+    background-color: #757780;
+    color: #fffffc;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.bouton-suite:hover{
+    background-color: #fffffc;
+    color: #001011;
+}
+
+.vetement p {
+    padding-top: 15px;
+    color: #001011;
+    text-align: left;
+}
+
+.logo {
+    display: inline-block;
+    background-color: #fffffc;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+h1.logo{
+    margin: 20px;
+}
+
+.big {
+    display: inline-block;
+    background-color: #fffffc;
+    padding: 6px;
+    border-radius: 20px;
+    margin-right: 8px;
+    margin-left: 0px;
+    color: #001011;
+}
+
+.commentaires {
+    background-color: #fffffc;
+    margin: 10px 0px;
+    display: inline-block;
+    padding: 10px;
+    color: #001011;
+}
+
+.breadcrumb {
+    font-size: 0.9rem;
+    color: #fffffc;
+    margin: 25px 0;
+    margin-bottom: 0px;
+}
+
+.breadcrumb a {
+    color: #fffffc;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+    border-bottom: 0;
+    font-size: 100%;
+}
+
+.breadcrumb .actuel {
+    color: #98ce00;
+    font-weight: bold;
+    border-radius: 0px;
+    border-bottom: none;
+    padding: 0px;
+}
+
+.container-produits{
+    max-width: 659px;
+    width: 90%;
+    margin: 0px auto;
+    color: #fffffc;
+}
+
+.positionnement{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-produit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.breadcrumb-nouvelle{
+    margin-left: 0;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.tete a{
+    padding: 10px;
+    background-color: #98ce00;
+    color: #fffffc;
+    text-decoration: none;
+}
+
+.tete a:hover{
+    color: #001011;
+    background-color:#fffffc;
+}
+
+.espacement li{margin-bottom: 7px;}
+
+.espacement ul{ padding-left: 15px;}
+
+.tableau-produit{
+     width: 100%;
+    margin: 20px 0;
+}
+
+/* navigation */
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #98ce00;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+nav li a:hover {
+    font-size: 110%;
+    border-bottom: #fffffc dashed 4px;
+}
+
+.prix-sur-devis{text-align: center;}
+
+/* mise en page */
+header {
+    background-color: #6ccff6;
+    padding-bottom: 30px;
+}
+
+video{margin: 20px 0px 20px 20px;}
+
+footer {
+    background-color: #6ccff6;
+    padding: 20px 0px;
+}
+
+footer p,
+footer p a {
+    color: #fffffc;
+    text-align: left;
+    max-width: 500px;
+    text-decoration: none;
+}
+
+footer p a:hover{
+    text-decoration: none;
+    color: #757780;
+    font-size: 110%;
+}
+
+iframe{
+    margin: 10px 0px 35px 0px;
+    aspect-ratio: 16 / 9;
+    border: 0;
+}
+
+aside{
+    padding: 20px;
+    background-color: #6ccff6;
+    width: 33%;
+}
+
+aside a{text-decoration: none;}
+
+aside a:hover{color: #757780;}
+
+aside li{margin-bottom: 15px;}
+
+aside .tete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid #001011;
+}
+
+article{width: 60%;}
+
+article ul{
+    padding-left: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+th, td{
+    padding: 10px 12px;
+    text-align: left;
+    border: 2px solid black;
+}
+
+th{
+    background-color: blue;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/*les ids*/
+#banniere {
+    background-image: url(/img/banniere.jpg);
+    /*je ne suis pas sûr si j'ai bien compris comment mettre la source de l'image.
+    Alors, il est ici: https://unsplash.com/fr/photos/une-vitrine-de-magasin-avec-une-pancarte-qui-dit-magasin-arjiIKicU-0*/
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 100%;
+}
+
+#banniere > h2{
+    color: #fffffc;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#banniere a:hover{
+    padding: 7px;
+    background-color: #fffffc;
+    color: #001011;
+    border: #001011 solid;
+}
+
+#Contact {
+    background-image: url(../img/image-page-contact.jpg);
+    /*/*je ne suis pas sûr si j'ai bien compris comment mettre la source de l'image.
+    Alors, il est ici: https://unsplash.com/fr/photos/photo-en-niveaux-de-gris-dune-personne-regardant-le-mur-Wr6Z4jmHdME?fbcli
+    d=PAVERFWAQfCfpleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAafXjv0UX7OM7ePjhOaPimPFH_b2-d7bxZnuQSkNRM4bFKyQ-Wc1yWB
+    uX1MJCQ_aem_0kEnsoP35fEEaJ9is4Z3FQ*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: #fffffc;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#Contact p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;  
+}
+
+#Contact > a {
+    text-decoration: none;
+    color: #fffffc;
+    background-color: #001011;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#Contact address{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Contact span:hover {
+    color: #001011;
+    background-color: #fffffc;
+}
+
+#flex-video{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact-h1{padding: 25px 0;}
